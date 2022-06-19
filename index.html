@@ -121,13 +121,13 @@
     <!-- SECTION CONTACT -->
     <h2 class="titre-contact">Nous Contacter</h2>
     <section id="contact">
-      <form action="">
+      <form name="contact" method="POST" data-netlify="true">
         <label for="prenom">PRENOM</label>
-        <input type="text" id="prenom" />
+        <input type="text" id="prenom" name="prenom" />
         <label for="nom">NOM</label>
-        <input type="text" id="nom" />
+        <input type="text" id="nom" name="nom" />
         <label for="textarea">MESSAGE</label>
-        <textarea name="" id="txt-area"></textarea>
+        <textarea name="txt-area" id="txt-area"></textarea>
         <button class="form-btn" type="submit">Envoyer</button>
       </form>
     </section>
